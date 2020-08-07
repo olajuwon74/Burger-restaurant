@@ -1,1 +1,1 @@
-# Burger-resturant
+# Burger-restaurant
