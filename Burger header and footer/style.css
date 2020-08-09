@@ -1,0 +1,94 @@
+header {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    background-color: #000;
+}
+
+.menu {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-left: -40px;
+}
+
+.menu-item {
+    display: inline-flex;
+    padding: 4px;
+    color: #fff;
+    margin: 6px;
+}
+
+.menu-item>a {
+    text-decoration: none;
+}
+
+.menu-item>a:hover {
+    color: #F2C64D;
+    text-decoration: underline;
+}
+
+.menu-item>a>.active {
+    color: #F2C64D;
+    text-decoration: underline !important;
+}
+
+.sm {
+    display: inline-flex;
+    padding: 8px;
+    margin-left: 30px;
+    color: #fff;
+}
+
+.fab {
+    color: #fff;
+}
+
+.fab:hover {
+    color: #F2C64D
+}
+
+.btn {
+    background: transparent;
+    padding: 12px 26px;
+    font-size: 18px;
+    font-weight: 400;
+    border: 1px solid #F2C64D;
+    color: #F2C64D;
+    border-radius: 30px;
+    font-family: "Paytone One", sans-serif;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #F2C64D;
+}
+
+.menu-item>a {
+    color: #fff;
+    font-weight: 800;
+    font-size: large;
+}
+
+footer {
+    background: #f5fbff;
+}
+
+p {
+    border-top: 3px solid #f5fbff;
+    text-align: center;
+}
+
+b {
+    color: #F2C64D;
+}
