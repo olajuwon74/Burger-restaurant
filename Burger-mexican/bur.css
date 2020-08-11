@@ -1,0 +1,42 @@
+body, html{
+        height: 100vh;
+}
+.carousel ,.item,.active{
+                         height: 100vh;
+                         position: relative;
+}
+.carousel{
+	top: 0;
+
+}
+.carousel-innner{
+            height:200vh;
+}
+.carousel-inner-img{
+	margin: auto;
+}
+
+.navbar-brand{
+   height: 10px;
+   width:20px;
+   text-align: center;
+}
+.carousel-item active {
+
+                  
+}
+.bur{
+     color: green;
+
+
+}
+.bar{
+
+}
+.max{
+  color:yellow;
+}
+.carousel-caption{
+  color:green;
+}
+
